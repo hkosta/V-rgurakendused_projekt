@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang "en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>ahjud.com</title>
+
+    <meta property="og:title" content="SIIMU AHJUD" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.ahjud.com/index.html" />
+    <meta property="og:image" content="http://..." />
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    
+
+
+</head>
+
+<body>
+
+<!-- Header -->
+
+    <div class="header">
+        <div class="container">
+
+            <h1>SIIMU AHJUD</h1>
+
+        </div>
+    </div>
+
+<!-- Navbar -->
+
+    <div class="nav">
+        <div class="container">
+
+            
+            <span class="menu-btn"></span>
+
+            <ul class="menu">
+
+                <li><a href="index.html">AVALEHT</a></li>
+                <li><a href="about.html">MEIST</a></li>
+                <li><a href="contact.html">KONTAKTID</a></li>
+                <li><a href="work.html">TEHTUD TÖÖD</a></li>          
+            </ul>
+
+        </div>
+    </div>
+
+<!-- Main -->
+
+    <div class="jumbotron">
+        <div class="container">
+
+            <p>SIIA TULEB SINU INFO - TUNNISTUSED JA NT SEE, MIS AASTAST ON TEIE KOLLEKTIIV TÖÖD TEINUD TEISTE ETTEVÕTETE ALL (EI PEA NIMETAMA) JA KUI VANA ON FIRMA ISE. SIIA VÕIB PANNA KA "PARTNERID"</p>
+
+
+        </div>
+    </div>
+
+<!-- FOOTER -->
+
+    <div class="footer">
+        <div class="container">
+
+              <p>&copy; Siimu ahjud, 2016</p>
+        </div>
+    </div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script>
+
+$(document).ready(function() {
+    
+    $('span.menu-btn').click(function() {
+        
+        event.defaultPrevented();
+
+        $('ul.menu').toggle('Drop');
+
+    })
+
+})
+
+
+    $(window).resize(function() {
+
+        if ( $(window).width() > 650 ) {
+
+            $('ul.menu').removeAttr('style');
+
+        }
+    })
+
+    </script>
+
+</body> 
+</html>

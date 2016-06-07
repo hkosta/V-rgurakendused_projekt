@@ -1,0 +1,192 @@
+﻿
+ /* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+
+    background-color: black;
+
+}
+
+/* header */
+
+.header {
+    color: white;
+    background-color: black;
+    font-family: Stencil;
+    padding: 5px 5px;
+    font-size: 700%;
+    display: inline-block;
+    float: left;
+    
+}
+
+/* menu bar */
+
+.nav {
+    background: #2db34a;
+    border-radius: 3%;
+    display: block;
+    color: #fff;
+    font: 200% Stencil;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 2%;
+    
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+
+.jumbotron {
+
+    background-color: #A4A4A4;
+    
+
+ -moz-box-shadow:    inset 0 0 60px #000000;
+   -webkit-box-shadow: inset 0 0 60px #000000;
+   box-shadow:         inset 0 0 60px #000000;
+    
+    opacity: 0,6;
+    padding: 5%; 
+    margin-top: 2%;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    display: block;
+    width: 80%;
+    
+    
+}
+
+
+.jumbotron p {
+    
+    color: #FFFFFF;
+    font: 120% Stencil;
+    margin-bottom: 2%;
+
+}
+
+@media (max-width: 650px) {
+
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+    .menu li {
+        display: block;
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+        cursor: pointer;
+        color: #fff;
+        font: 200% Stencil;
+    }
+
+    .menu-btn:before {
+        content: "MENÜÜ";
+    }
+
+}
+
+form {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 100%;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+
+label {
+    /* To make sure that all labels have the same size and are properly aligned */
+    display: inline-block;
+    width: 10%;
+    text-align: right;
+    font: Stencil;
+    color: #FFFFFF;
+}
+
+textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 0,7em sans-serif;
+
+    /* To give the same size to all text field */
+    width: 80%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* To harmonize the look & feel of text field border */
+    border: 1px solid #999;
+
+/* To properly align multiline text fields with their labels */
+    vertical-align: top;
+
+    /* To give enough room to type some text */
+    height: 15em;
+
+    /* To allow users to resize any textarea vertically
+       It does not work on all browsers */
+    resize: vertical;
+}
+
+input:focus, textarea:focus {
+    /* To give a little highlight on active elements */
+    border-color: #000;
+}
+
+
+input {
+
+position: center;
+-moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* To harmonize the look & feel of text field border */
+    border: 1px solid #999;
+   
+
+width: 55%;
+
+ }
+
+
+/* footer */
+
+.footer {
+    text-align: center;
+    padding: 3%;
+    color: white;
+}
