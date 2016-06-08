@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang "en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>ahjud.com</title>
+
+    <meta property="og:title" content="SIIMU AHJUD" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.ahjud.com/index.html" />
+    <meta property="og:image" content="http://..." />
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    
+
+
+</head>
+
+<body>
+
+<!-- Header -->
+
+    <div class="header">
+        <div class="container">
+
+            <h1>SIIMU AHJUD</h1>
+
+        </div>
+    </div>
+
+<!-- Navbar -->
+
+    <div class="nav">
+        <div class="container">
+
+            
+            <span class="menu-btn"></span>
+
+            <ul class="menu">
+
+                <li><a href="index.php">AVALEHT</a></li>
+                <li><a href="about.html">MEIST</a></li>
+                <li><a href="contact.php">KONTAKTID</a></li>
+                <li><a href="work.html">TEHTUD TÖÖD</a></li>          
+            </ul>
+
+        </div>
+    </div>
+
+<!-- Main -->
+
+    <div class="jumbotron">
+        <div class="container">
+
+            <p>EESTIS KESTAB KÜTTEPERIOOD ENAMUSE AASTAST. ERINEVATE KAASAEGSETE KÜTTELAHENDUSTE KÕRVAL POLE KA TRADITSIOONILINE AHIKÜTE KUHUGI KADUNUD. HÄSTI EHITATUD  KÜTTEKOLLE ANNAB  HÄSTI SOOJA JA MUUDAB KODU HUBASEKS , TEENIDES PERERAHVAST AASTAKÜMNEID.</p><br><br>
+
+            <p>OLEME SPETSIALISEERUNUD EELKÕIGE KIVIST AHJUDE, KAMINAHJUDE, KAMINATE, PLIITIDE, SOEMÜÜRIDE JA KORSTENDE EHITAMISELE. LISAKS RENOVEERIME VANU                        KÜTTEKOLDEID.</p><br><br>
+
+            <p>LEIAME ALATI PARIMA LAHENDUSE, SEADES ESIKOHALE KLIENDI SOOVID,VAJADUSED JA VISIOONI. SAMAL AJAL TAGAME TÖÖKINDLUSE, VASTUPIDAVUSE JA KÕRGE KASUTEGURI.             NING MUIDUGI KA SILMAILU.</p><br><br>
+
+            <p>OMAME VAJALIKKE KUTSETUNNISTUSI, TÖÖKOGEMUS SELLES VALDKONNAS ON TÄNASEKS ROHKEM KUI KÜMNE AASTA PIKKUNE. PEALE TÖÖ VALMIMIST VÄLJASTAME KLIENDILE                   KÜTTESEADME PASSI KOOS KASUTUSJUHENDIGA. TEHTUD TÖÖDELE ANNAME GARANTII.</p>
+
+
+        </div>
+    </div>
+
+<!-- FOOTER -->
+
+    <div class="footer">
+        <div class="container">
+
+              <p>&copy; Siimu ahjud, 2016</p>
+        </div>
+    </div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script>
+
+$(document).ready(function() {
+    
+    $('span.menu-btn').click(function() {
+        
+        event.defaultPrevented();
+
+        $('ul.menu').toggle('Drop');
+
+    })
+
+})
+
+
+    $(window).resize(function() {
+
+        if ( $(window).width() > 650 ) {
+
+            $('ul.menu').removeAttr('style');
+
+        }
+    })
+
+    </script>
+
+</body> 
+</html>

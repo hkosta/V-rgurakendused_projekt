@@ -66,7 +66,7 @@
 
             <div class="contuct_us">
 
-<form name="contactform" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+<form name="contactform" method="post" action="send_form_email.php">
  
 <table width="100%">
  
